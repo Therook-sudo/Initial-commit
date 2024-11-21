@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION FORM</title>
+    <link href="./STYLES/form.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">BIOGRAPHY</a> &gt;
+            <a href="./form.html">APPLICATION FORM</a> &gt;
+            <a href="./table.html">COURSES</a> &gt;
+            <a href="./media.html">MEDIA</a>
+        </nav>
+    </header>
+
+<div class="wrapper">
+
+    <div class="image-container">
+        <img src="./ASSETS/PORTAL.png" alt="side-logo">
+    <div class="text-content">
+        <p>Learn highly sought</p>
+        <p>after skills without</p>
+        <p>hassle.</p>
+        <p style="font-size: x-small;">Tel: 0800ALTSCHOOL</p>
+        <p>©2024 AltSchool Africa. All rights reserved.</p>
+    </div>
+    </div>
+
+    
+    <div class="container">
+        <div class="form-container">  
+            <fieldset>
+                <h1>Already an AltSchooler? <em>Sign in!</em></h1>
+                <h2>Sign Up</h2>
+                <h3>Take the next steps to apply at AltSchool Africa</h3>
+                
+    
+                <form action="#" method="post">
+
+                <div class="form-input-group">
+                    <div class="form-input">
+                        <label for="first-name">First Name</label><br>
+                        <input type="text" id="first-name" name="first_name" placeholder="Enter first name"  required>
+                    </div><br>
+    
+                    <div class="form-input">
+                        <label for="last-name">Last Name</label><br>
+                        <input type="text" id="last-name" name="last_name" placeholder="Enter last name" required>
+                    </div><br>
+                </div>
+    
+                <div class="form-input-group">    
+                    <div class="form-input">
+                        <label for="gender">Gender</label><br>
+                        <select id="gender" name="gender" aria-placeholder="selct gender" required>
+                            <option value="NONE">NONE</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div><br>
+    
+                    <div class="form-input">
+                        <label for="dob">Date of Birth</label><br>
+                        <input type="date" id="dob" name="date_of_birth"  required>
+                    </div><br>
+                </div>
+    
+                <div class="form-input-group"> 
+                    <div class="form-input">
+                        <label for="email">Email Address</label><br>
+                        <input type="email" id="email" name="email_address" placeholder="Enter email address" required>
+                    </div><br>
+    
+                    <div class="form-input">
+                        <label for="phone">Phone Number</label><br>
+                        <input type="tel" id="phone" name="phone_number" placeholder="08123412451" required>
+                    </div><br>
+                </div>
+
+                <div class="form-input-group">
+                    <div class="form-input">
+                        <label for="country">Country</label><br>
+                        <input list="country-list" id="country" name="country" placeholder="Select your country" required>
+                        <datalist id="country-list">
+                            <option value="Nigeria">
+                            <option value="Canada">
+                            <option value="Australia">
+                            <option value="Ghana">
+                        </datalist>
+                    </div><br>
+    
+                    <div class="form-input">
+                        <label for="state">State/City of Residence</label><br>
+                        <input type="text" id="state" name="state_city_of_residence" placeholder="Enter your state of residence" required>
+                    </div><br>
+                </div>
+
+
+                    <div class="form-input">
+                        <label for="how-did-you-hear-about-us">How did you hear about us?</label><br>
+                        <select id="how-did-you-hear-about-us" name="how_did_you_hear_about_us" aria-placeholder="Select channel" required>
+                            <option value="select_channel">Select channel</option>
+                            <option value="X">X</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="LinkedIn">LinkedIn</option>
+                            <option value="YouTube">YouTube</option>
+                            <option value="friend">Friend</option>
+                            <option value="whatsapp">WhatsApp</option>
+                            <option value="sales_officer">Sales Officer</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div><br>
+                    
+                <div class="form-inpu-group">
+                    <div class="form-input">
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password" name="password" placeholder="Enter password" required>
+                    </div><br>
+    
+                    <div class="form-input">
+                        <label for="confirm-password">Confirm Password</label><br>
+                        <input type="password" id="confirm-password" name="confirm_password" placeholder="Enter password again" required>
+                    </div><br>
+                </div>
+    
+                    <div class="form-input">
+                        <p>By clicking continue, I agree to the terms of use and acknowledge that I have read the privacy policy.</p>
+                    </div><br>
+    
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div><br><hr>
+    
+                    <div class="card">
+                        <label for="message">We're online! How may I help you today?</label><br>
+                        <textarea id="message" name="message" rows="2"></textarea>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+</div>
+    
+        
+    
+</body>
+</html>
